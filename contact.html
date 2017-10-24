@@ -8,64 +8,60 @@
 
     <meta charset="utf-8">
     <meta name="author" content="Nikki Aaron">
-    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/style.css">
 
 </head> 
 
 <body>
-<section id="container">
+<div class="wrapper clearfix">
     
-    <header>
+    <header class="clearfix">
         <h1>Nikki Aaron</h1>
         <nav>
-            <a href="index.html">About</a>
-            <a href="portfolio.html">Portfolio</a>
-            <a href="contact.html">Contact</a>
+            <ul>
+                <li><a href="index.html">About</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
         </nav>
     </header>
 
-    <hr>
+    <div class="container clearfix">
+        <main id="main-content" class="clearfix">
+            <h2>Contact</h2>
+            <hr>
+            <form action="/form_handling" method="post">
+                <p>
+                    <label for="name">Name</label><br>
+                    <input type="text" name="name" id="name" placeholder="John Smith"></input><br>
+                </p>
+                <p>
+                    <label for="email">Email</label><br>
+                    <input type="text" name="email" id="email" placeholder="example@gmail.com"></input><br>
+                </p>
+                <p>
+                    <label for="message">Message</label><br>
+                    <textarea name="message" id=message rows="4" cols="50"></textarea>
+                </p>
+                <div class="button">
+                   <button type="submit">Submit</button> 
+                </div>
+            </form>
+        </main>
 
-    <section id="contact">
-        <h1>Contact</h1>
-        <hr>
-        <form action="/form_handling" method="post">
-                <label for="name">Name</label><br>
-                <input type="text" name="name" placeholder="John Smith"></input><br>
-                <label for="email">Email</label><br>
-                <input type="text" name="email" placeholder="example@gmail.com"></input><br>
-                <label for="message">Message</label><br>
-                <textarea name="message" rows="4" cols="50"></textarea>
-            </div>
-            <div class="button">
-               <button type="submit">Submit</button> 
-            </div>
-        </form>
-        </div>
-    </section>
-
-    <aside id="social">
-        <h1>Connect with Me</h1>
-        <hr>
-        <a href="https://github.com/NA-Dev">
-            <img src="assets/images/github.png" alt="GitHub" width="50">
-        </a>
-        <a href="https://www.linkedin.com/in/nikki-aaron-48134471/">
-            <img src="assets/images/linkedin.png" alt="LinkedIn" width="50">
-        </a>
-        <a href="https://stackoverflow.com/users/8606859/na-dev">
-            <img src="assets/images/stack.png" alt="StackOverflow" width="50">
-        </a>
-    </aside> 
-
-    <hr>
+        <aside id="social" class="clearfix">
+            <h3>Connect with Me</h3>
+            <hr>
+            <a href="https://github.com/NA-Dev"><img src="assets/images/github.png" alt="GitHub"></a>
+            <a href="https://www.linkedin.com/in/nikki-aaron-48134471/"><img src="assets/images/linkedin.png" alt="LinkedIn"></a>
+            <a href="https://stackoverflow.com/users/8606859/na-dev"><img src="assets/images/stack.png" alt="StackOverflow"></a>
+        </aside>
+    </div>
 
     <footer>
         <p>&copy; Copyright 2017 Nikki Aaron<p>
     </footer>
 
-</section>
+</div>
 </body>
-
-
 </html>

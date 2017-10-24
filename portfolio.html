@@ -8,65 +8,63 @@
 
     <meta charset="utf-8">
     <meta name="author" content="Nikki Aaron">
-    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/style.css">
 
-</head> 
+</head>
 
 <body>
-<section id="container">
+<div class="wrapper clearfix">
     
-    <header>
+    <header class="clearfix">
         <h1>Nikki Aaron</h1>
         <nav>
-            <a href="index.html">About</a>
-            <a href="portfolio.html">Portfolio</a>
-            <a href="contact.html">Contact</a>
+            <ul>
+                <li><a href="index.html">About</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
         </nav>
     </header>
 
-    <hr>
+    <div class="container clearfix">
+        <main id="main-content" class="clearfix">
+            <h2>Portfolio</h2>
+            <hr>
+            <div class="project left">
+                <img class="screenshot" src="assets/images/placeholder1.jpg" alt="photo">
+                <div class="tag">1</div>
+            </div>
+            <div class="project right">
+                <img class="screenshot" src="assets/images/placeholder2.jpg" alt="photo">
+                <div class="tag">1</div>
+            </div>
+            <div class="project left">
+                <img class="screenshot" src="assets/images/placeholder3.jpg" alt="photo">
+                <div class="tag">1</div>
+            </div>
+            <div class="project right">
+                <img class="screenshot" src="assets/images/placeholder4.jpg" alt="photo">
+                <div class="tag">1</div>
+            </div>
+            <div class="project left">
+                <img class="screenshot" src="assets/images/placeholder5.jpg" alt="photo">
+                <div class="tag">1</div>
+            </div>
+        </main>
 
-    <section id="portfolio">
-        <h1>Portfolio</h1>
-        <hr>
-        <div class="container">
-            <img src="assets/images/placeholder1.jpg" alt="photo" width="200">
-            <div class="tag">Hangman</div>
-        </div>
-        <div class="container">
-            <img src="assets/images/placeholder2.jpg" alt="photo" width="200">
-            <div class="tag">RPG Game</div>
-        </div>
-        <div class="container">
-            <img src="assets/images/placeholder3.jpg" alt="photo" width="200">
-            <div class="tag">Trivia Game</div>
-        </div>
-        <div class="container">
-            <img src="assets/images/placeholder4.jpg" alt="photo" width="200">
-            <div class="tag">Rutgers Info Widget</div>
-        </div>
-        <div class="container">
-            <img src="assets/images/placeholder5.jpg" alt="photo" width="200">
-            <div class="tag">Rock Paper Scissors</div>
-        </div>
-    </section>
-
-    <aside id="social">
-        <h1>Connect with Me</h1>
-        <hr>
-        <a href="https://github.com/NA-Dev"><img src="assets/images/github.png" alt="GitHub" width="50"></a>
-        <a href="https://www.linkedin.com/in/nikki-aaron-48134471/"><img src="assets/images/linkedin.png" alt="LinkedIn" width="50"></a>
-        <a href="https://stackoverflow.com/users/8606859/na-dev"><img src="assets/images/stack.png" alt="StackOverflow" width="50"></a>
-    </aside> 
-
-    <hr>
+        <aside id="social" class="clearfix">
+            <h3>Connect with Me</h3>
+            <hr>
+            <a href="https://github.com/NA-Dev"><img src="assets/images/github.png" alt="GitHub"></a>
+            <a href="https://www.linkedin.com/in/nikki-aaron-48134471/"><img src="assets/images/linkedin.png" alt="LinkedIn"></a>
+            <a href="https://stackoverflow.com/users/8606859/na-dev"><img src="assets/images/stack.png" alt="StackOverflow"></a>
+        </aside>
+    </div>
 
     <footer>
         <p>&copy; Copyright 2017 Nikki Aaron<p>
     </footer>
 
-</section>
+</div>
 </body>
-
-
 </html>

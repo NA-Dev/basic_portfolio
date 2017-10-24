@@ -8,49 +8,47 @@
 
     <meta charset="utf-8">
     <meta name="author" content="Nikki Aaron">
-    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/style.css">
 
 </head> 
 
 <body>
-<section id="container">
+<div class="wrapper clearfix">
     
-    <header>
+    <header class="clearfix">
         <h1>Nikki Aaron</h1>
         <nav>
-            <a href="index.html">About</a>
-            <a href="portfolio.html">Portfolio</a>
-            <a href="contact.html">Contact</a>
+            <ul>
+                <li><a href="index.html">About</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
         </nav>
     </header>
 
-    <hr>
+    <div class="container clearfix">
+        <main id="main-content" class="clearfix">
+            <h2>About Me</h2>
+            <hr>
+            <img id="headshot" src="assets/images/Berries.jpg" alt="photo">
+            <p>
+                Donec sollicitudin molestie malesuada. Nulla porttitor accumsan tincidunt. Curabitur aliquet quam id dui posuere blandit. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Sed porttitor lectus nibh. Cras ultricies ligula sed magna dictum porta. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Nulla porttitor accumsan tincidunt.
+            </p>
+        </main>
 
-    <section id="about">
-        <h1>About Me</h1>
-        <hr>
-        <img src="assets/images/Berries.jpg" alt="photo" width="256">
-        <p>
-            Here is where we write things about me.
-        </p>
-    </section>
-
-    <aside id="social">
-        <h1>Connect with Me</h1>
-        <hr>
-        <a href="https://github.com/NA-Dev"><img src="assets/images/github.png" alt="GitHub" width="50"></a>
-        <a href="https://www.linkedin.com/in/nikki-aaron-48134471/"><img src="assets/images/linkedin.png" alt="LinkedIn" width="50"></a>
-        <a href="https://stackoverflow.com/users/8606859/na-dev"><img src="assets/images/stack.png" alt="StackOverflow" width="50"></a>
-    </aside> 
-
-    <hr>
+        <aside id="social" class="clearfix">
+            <h3>Connect with Me</h3>
+            <hr>
+            <a href="https://github.com/NA-Dev"><img src="assets/images/github.png" alt="GitHub"></a>
+            <a href="https://www.linkedin.com/in/nikki-aaron-48134471/"><img src="assets/images/linkedin.png" alt="LinkedIn"></a>
+            <a href="https://stackoverflow.com/users/8606859/na-dev"><img src="assets/images/stack.png" alt="StackOverflow"></a>
+        </aside>
+    </div>
 
     <footer>
         <p>&copy; Copyright 2017 Nikki Aaron<p>
     </footer>
 
-</section>
+</div>
 </body>
-
-
 </html>

@@ -27,7 +27,7 @@ header {
 h1 {
 	font-size: 28px;
 	font-weight: bold;
-	font-family: 'Georgia', Times, Times New Roman, serif;;
+	font-family: 'Georgia', Times, 'Times New Roman', serif;;
 	color: #fff;
 	line-height: 90px;
 	width: 250px;
@@ -88,7 +88,7 @@ nav li:not(:last-child) {
 h2 {
 	font-size: 28px;
 	font-weight: bold;
-	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-family:'Georgia', Times, 'Times New Roman', serif;
 	line-height: 70px;
 	color: #4aaaa5;
 	margin: 0;
@@ -98,30 +98,33 @@ h2 {
 	background-color: #ddd;
 	height: 3px;
 	border: 0;
-	margin: 0px 0px 15px 0px;
+	margin: 0 0 15px 0;
 }
 
 #headshot {
 	width: 200px;
 	float: left;
-	margin: 9px 25px 9px 0px;
+	margin: 9px 25px 9px 0;
 }
 
-p { font-size: 18px;
+p { font-size: 16px;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	color: #777;
 	line-height: 32px;
+	text-align: justify;
+    text-justify: inter-word;
 	padding: 0;
-	margin: 0;
+	margin: 0 0 20px 0;
 }
 
-.button {
-	margin-left: 20px 
+button:hover {
+	background: #777;
+	color: #fff;	
 }
 
 .project {
 	position: relative;
-	margin: 8px 0px 0px 0px;
+	margin: 8px 0 0 0;
 }
 
 .project img {
@@ -139,9 +142,14 @@ p { font-size: 18px;
 	top: 150px;
 }
 
+.tag:hover {
+	font-size:24px;
+}
+
 .left {
 	float: left;
 }
+
 .right {
 	float: right;
 }
@@ -150,7 +158,7 @@ aside {
 	width: 208px;
 	background-color: #fff;
 	border: 1px solid #ddd;
-	padding: 0px 30px 30px 30px;
+	padding: 0 30px 30px 30px;
 	float:left;
 	margin-left: 40px;
 }

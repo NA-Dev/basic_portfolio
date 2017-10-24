@@ -24,11 +24,11 @@ header {
 h1 {
 	font-size: 28px;
 	font-weight: bold;
-	font-family: "Georgia", Times New Roman, Times, serif;
+	font-family: 'Georgia', Times, Times New Roman, serif;;
 	color: #fff;
 	line-height: 90px;
 	width: 250px;
-	background-color: #4ba9a5;
+	background-color: #4aaaa5;
 	text-align: center;
 	margin: 0;
 	margin-left: 160px;
@@ -54,13 +54,13 @@ nav li {
 
 nav a {
 	font-size: 18px;
-	font-family: Arial, Times New Roman, Times, serif;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
   	text-decoration: inherit;
-  	color: #9a9a9a;
+  	color: #777;
  }
 
 nav li:not(:last-child) {
-	border-right: 1px solid #f1f1f1;
+	border-right: 1px solid #ddd;
 }
 
 .container {
@@ -70,7 +70,7 @@ nav li:not(:last-child) {
 
 #main-content {
 	background-color: #fff;
-	border: 1px solid #dfdfdf;
+	border: 1px solid #ddd;
 	width: 588px;
 	padding: 10px 30px 30px 30px;
 	float: left;
@@ -79,14 +79,14 @@ nav li:not(:last-child) {
 h2 {
 	font-size: 28px;
 	font-weight: bold;
-	font-family: "Georgia", Times New Roman, Times, serif;
+	font-family: 'Georgia', Times, Times New Roman, serif;
 	line-height: 70px;
-	color: #4ba9a5;
+	color: #4aaaa5;
 	margin: 0;
 }
 
 #main-content hr {
-	background-color: #d8d8d8;
+	background-color: #ddd;
 	height: 3px;
 	border: 0;
 	margin: 0px 0px 15px 0px;
@@ -99,8 +99,8 @@ h2 {
 }
 
 p { font-size: 18px;
-	font-family: Arial, Times New Roman, Times, serif;
-	color: #949392;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777;
 	line-height: 32px;
 	padding: 0;
 	margin: 0;
@@ -120,7 +120,7 @@ p { font-size: 18px;
 }
 
 .tag {
-	background-color: #4ba9a5;
+	background-color: #4aaaa5;
 	font-size:22px;
 	color: #fff;
 	text-align: center;
@@ -154,7 +154,7 @@ aside hr {
 	margin-top: 0;
 	margin-bottom: 20px;
 	height: 2px;
-	background-color: #d8d8d8;
+	background-color: #ddd;
 	border: 0;
 }
 

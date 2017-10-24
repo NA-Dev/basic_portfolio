@@ -120,7 +120,7 @@ p { font-size: 18px;
 }
 
 .project {
-	background-color: orange;
+	position: relative;
 	margin: 8px 0px 0px 0px;
 }
 
@@ -135,8 +135,8 @@ p { font-size: 18px;
 	text-align: center;
 	line-height: 50px;
 	width: 275px;
-	position: relative;
-	top: -65px;
+	position: absolute;
+	top: 150px;
 }
 
 .left {

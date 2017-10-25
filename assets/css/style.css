@@ -42,11 +42,11 @@ nav {
 	display: inline-block;
 	height: 90px;
 	position: static;
-	margin-left: 375px;
+	margin-left: 415px;
 }
 
 nav ul {
-	padding-top: 20px;	
+	padding-top: 35px;	
 }
 
 nav li {
@@ -166,6 +166,8 @@ aside {
 h3 {
 	font-size: 22px;
 	color: #4ba9a5;
+    margin: 22px 0 22px 0;
+    font-weight: bold;
 }
 
 aside hr {

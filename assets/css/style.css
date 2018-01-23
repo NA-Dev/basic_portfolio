@@ -14,14 +14,14 @@ body {
 	display: flex;
 	min-height: 100vh;
 	flex-direction: column;
-	background-image: url("../images/regal.png"); 
+	background-image: url("../images/regal.png");
 	background-color: #ccc;
 }
 
 header {
 	white-space: nowrap;
 	background-color: #fff;
-	border-bottom: 3px solid #d8d8d8; 
+	border-bottom: 3px solid #d8d8d8;
 }
 
 h1 {
@@ -46,7 +46,7 @@ nav {
 }
 
 nav ul {
-	padding-top: 35px;	
+	padding-top: 35px;
 }
 
 nav li {
@@ -67,8 +67,8 @@ nav a:hover {
 	font-size: 24px;
 }
 
-nav li:not(:last-child) {
-	border-right: 1px solid #ddd;
+nav li + li {
+	border-left: 1px solid #ddd;
 }
 
 .container {
@@ -119,7 +119,7 @@ p { font-size: 16px;
 
 button:hover {
 	background: #777;
-	color: #fff;	
+	color: #fff;
 }
 
 .project {
